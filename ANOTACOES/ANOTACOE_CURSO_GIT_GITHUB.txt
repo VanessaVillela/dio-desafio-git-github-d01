@@ -1,0 +1,98 @@
+ANOTAÇÕES CURSO : GIT/GITHUB
+
+LINKS UTEIS:
+https://git-scm.com/
+
+-------------------------------------------------
+
+DEFINIÇÕES:
+GIT: Sistema e versionamento de coigo distribuido.
+GITHUB: Repositorio online para armazenamento de código.
+
+-------------------------------------------------
+
+BENEFICIOS EM SUA UTILIZAÇÃO:
+1- Controle de versão
+2- Armazenamento em nuvem
+3- Trabalho em equipe
+4- Melhorar seu código
+5- Reconhecimento
+
+-------------------------------------------------
+
+COMANDOS NAVEGAÇÃO NO TERMINAL	
+
+	WINDOWS			UNIX
+	cd			cd
+	dir			ls
+	mkdir			mkdir
+	del / rmdir		rm -rf
+	cls			clear = ctrl+l
+
+
+COMANDOS 					FUNÇÃO
+
+windows + digitar cmd 	-------------	Abrir terminal: windows + digitar cmd
+cd / 	-----------------------------	Navegar entre as pastas
+cd..	-----------------------------	Volta para a pasta anterior
+cls	-----------------------------   Limpar tela do terminal
+tab	-----------------------------	Autocompletar
+dir	-----------------------------	Listar as pastas
+mkdir + nome ------------------------	Criar pasta 
+echo texto > texto.txt	-------------	Criar arquivo
+del + nome da pasta  ----------------	Deletar arquivos dentro da pasta
+rmdir + nome da pasta /S /Q  --------	Deletar pasta com seu conteudo
+ls -a -------------------------------	Mostrar pasta oculta
+
+-----------------------------------------------
+
+SHA1 ---------- Faz criptação que gera um conjunto de characteres indentifcadores de 40 digitos
+
+echo "olá mundo" | openssl sha1
+(stdin)= f9fc856e559b9500175f2b7cd7dad61face58e7b
+
+uso:
+openssl sha1 arquivo_que _quer_criar_a_chave
+
+-----------------------------------------------
+
+COMANDOS BASICOS DO GIT
+git init ----------------------------	Inicia o repositorio no git
+git add	-----------------------------	Mover arquivos e iniciar o versionamento
+git add ** -----------------------------   Adiciona todas alterações
+git add. ----------------------------- 
+git commit  -------------------------	Cria um commit
+git status --------------------------   Status
+MV nome do arquivo ------------------   mover arquivo
+git config --global user.email ------   trocar emil etc
+
+
+Configurações iniciais:
+git config --global user.email "vanessa_autosoft@hotmail.com"
+git config --global user.name vanessa
+-----------------------------------------------
+
+MARKDOWN
+# Titulo nivel 1
+## Titulo nivel 2
+### Titulo nivel 3
+#### Titulo nivel 4
+##### Titulo nivel 5
+###### Titulo nivel 6
+
+**NEGRITO**
+_ITALICO_
+espaço - espaço lisa de bolinha
+
+-----------------------------------------------
+
+Descrição do Desafio
+Reforce seu conhecimento em Git com um desafio de projeto totalmente prático, 
+onde você executará todos os passos para a criação, atualização e sincronização 
+de um repositório no GitHub. Para isso, tenha em mente todas as dicas e direcionamentos 
+apresentados pelo expert nas aulas. Dessa forma, você poderá compartilhar suas anotações 
+e exercícios em seu próprio repositório. Criando assim, o primeiro (de muitos) projetos do seu portfólio ;)
+
+Links Úteis
+Slides
+https://drive.google.com/file/d/1IZu0qohv1JOmxjEra1lknDiiStU68bl4/view
