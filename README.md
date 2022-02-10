@@ -5,5 +5,5 @@ Desafio para reforçar o conehcimento em Git, onde é executado todos os passos 
 atualização e sincronização de um repositório no GitHub. 
 
 ### Links Uteis
-[Donload GIT](https://git-scm.com/)
+[Download GIT  |  ](https://git-scm.com/)
 [Guia de utilização Markdown](https://www.markdownguide.org/basic-syntax/)
